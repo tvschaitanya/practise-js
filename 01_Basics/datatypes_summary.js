@@ -45,3 +45,28 @@ const myFunction = function () {
 // Note: Due to pass-by-reference, modifications to objects, arrays, or functions inside a function will reflect outside the function.
 
 console.log(typeof score);
+
+// ~~~~~~~~~~~~~~~~ Memory ~~~~~~~~~~~~~~~ //
+
+// Stack (Primitive) - you get a copy
+// Heap (Non-Primitive) - you get a original value reference
+
+let myYoutubeName = "Chaitanya";
+
+let anotherName = myYoutubeName;
+anotherName = "Chai";
+
+console.log(myYoutubeName);
+console.log(anotherName);
+
+let userOne = {
+  email: "user@gmail.com",
+  upi: "user@ybl",
+};
+
+let userTwo = userOne;
+
+userTwo.email = "user@yahoo.com";
+
+console.log(userOne.email);
+console.log(userTwo.email);
