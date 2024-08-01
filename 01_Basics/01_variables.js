@@ -14,7 +14,6 @@ accountCity = "Hyd";
 console.table([accountId, accoutEmail, accountPasword, accountCity]);
 console.log(accountState);
 
-//Notes
-/* Don't use var
- because of issue in block scope and functional scope
-*/
+// -------- Notes ------- //
+// Don't use var
+//  because of issue in block scope and functional scope

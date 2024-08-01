@@ -9,11 +9,12 @@ let name = "Chai";
 let age = 26;
 let isLoggedIn = false;
 
-// Notes:
-/*
-1. Code should be readable
-*/
+// object
+console.log(typeof null); // object
+console.log(typeof undefined); // undefined
 
+// ~~~~~~~~~~~~~~Notes~~~~~~~~~~~~~~~~~~~~~~~~~ //
+// Code should be readable
 // number =>2 to power 53
 // bigint - very big number, real world usage in trading
 // string => " "
@@ -21,7 +22,3 @@ let isLoggedIn = false;
 // null => standalone value, represents empty (not assigned)
 // undefined => when value is not assigned
 // symbol => unique values
-
-// object
-console.log(typeof null); // object
-console.log(typeof undefined); // undefined
