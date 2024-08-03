@@ -26,3 +26,5 @@ console.log(Math.min(4, 5, 6, 8, 2));
 console.log(Math.max(4, 5, 6, 8, 2));
 
 console.log(Math.random()); //always between 0 and 1
+
+console.log((Math.random() * 10) + 1);
